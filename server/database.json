@@ -104,8 +104,8 @@
       "startDate": "2026-10-03",
       "dueDate": "2026-10-04",
       "priority": "Critical",
-      "status": "Completed",
-      "completionPercentage": 100,
+      "status": "In Progress",
+      "completionPercentage": 50,
       "hoursWorked": 6,
       "notes": "All sensor pin maps and voltage limits verified (3.3V safe).",
       "completedAt": "2026-10-04"
@@ -115,16 +115,16 @@
       "title": "Study battery, power & wiring",
       "description": "Calculate total current draw (ESP32 + sensors + radio ~650mA peak) and select 2S LiPo battery & buck regulator specs.",
       "assignedMemberId": "archisman",
-      "week": 2,
+      "week": 1,
       "day": "Thursday",
       "startDate": "2026-10-04",
       "dueDate": "2026-10-06",
       "priority": "Critical",
       "status": "In Progress",
       "completionPercentage": 50,
-      "hoursWorked": 3,
+      "hoursWorked": 5,
       "notes": "5V regulator rail stable under load test.",
-      "blocker": "3.3V regulator heating up under RF transmit burst. Testing heatsink."
+      "blocker": ""
     },
     {
       "id": "w1-mech",
@@ -775,6 +775,36 @@
   ],
   "dailyLogs": [
     {
+      "id": "log-1791132059781",
+      "date": "2026-10-04",
+      "memberId": "archisman",
+      "taskId": "w1-hw2",
+      "taskTitle": "Study battery, power & wiring",
+      "workCompleted": "5V regulator rail stable under load test.",
+      "progressPercentage": 50,
+      "hoursWorked": 2,
+      "status": "In Progress",
+      "blocker": "",
+      "nextStep": "",
+      "attachmentName": "",
+      "createdAt": "2026-10-04T16:40:59.781Z"
+    },
+    {
+      "date": "2026-10-04",
+      "memberId": "archisman",
+      "taskId": "w1-hw2",
+      "taskTitle": "Study battery, power & wiring",
+      "workCompleted": "5V regulator rail stable under load test.",
+      "progressPercentage": 50,
+      "hoursWorked": 2,
+      "status": "In Progress",
+      "blocker": "",
+      "nextStep": "",
+      "attachmentName": "",
+      "id": "log-1791132059775",
+      "createdAt": "2026-10-04T16:40:59.775Z"
+    },
+    {
       "id": "log-1",
       "date": "2026-10-04",
       "memberId": "richi",
@@ -1004,5 +1034,5 @@
     }
   ],
   "currentWeek": 1,
-  "updatedAt": "2026-10-04T15:30:25.242Z"
+  "updatedAt": "2026-10-04T16:40:59.809Z"
 }
